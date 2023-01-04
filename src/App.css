@@ -1,0 +1,21 @@
+.bg{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dg1{
+  bottom: 100;
+  left: 0;
+}
+.bg1{
+  background: #282B2A;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
