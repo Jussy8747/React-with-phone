@@ -3,6 +3,7 @@ import Name from "./Name"
 export default function Name2({value, setValue, handleSubmut, showcom , setShowcom }){
   
 function handleSubmut(e){
+  e.preventDefault()
   setShowcom(true) 
   setValue("")
   }
@@ -19,7 +20,7 @@ function handleSubmut(e){
      <button onClick={handleSubmut} className="btn btn-light mt-2">Submit</button>
      </div>
      
-     {showcom && <Name/>}
+     {showcom && <Name value={value}/>}
      
     </div>
     </div>
